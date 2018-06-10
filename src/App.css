@@ -4,10 +4,10 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 60px;
 }
 .App-logo-2 {
-  height: 80px;
+  height: 60px;
 }
 
 .logo-container {
@@ -28,21 +28,24 @@
   color: white;
 }
 
+.App-header a {
+  color: #dedede;
+}
+
 .App-title {
   font-size: 1.5em;
 }
 
 .App-intro {
-  font-size: 14px;
-  color: "#6E6E6E";
+  font-size: 18px;
+  color: #232323;
 }
-
 .App-intro a {
   color: inherit;
 }
 
 .intro-warning-pre {
-font-size: 12px;
+  font-size: 12px;
 }
 
 .intro-inner-heading {
@@ -57,6 +60,43 @@ font-size: 12px;
   float: none;
   margin: auto;
   margin-top: 20px;
+}
+
+.aws-sdk-info-img {
+  margin: 40px 0px;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.main-nav li {
+  float: left;
+}
+
+.main-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main-nav li a:hover:not(.active) {
+  background-color: rgb(240, 240, 240);
+  color:rgb(58, 58, 58);
+}
+
+.main-nav .active {
+  background-color: #fff;
+}
+
+.main-nav .active a {
+  color: #333;
 }
 
 @keyframes App-logo-spin {
