@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <div className="logo-container">
             <img src={logo} className="App-logo" alt="logo" />
-            <span className="span-plus" > + </span>
+            <span className="span-plus"> + </span>
             <img
               src={
                 "https://mms.businesswire.com/media/20180509006648/en/656774/23/AWS_logo_RGB.jpg"
@@ -21,9 +21,17 @@ class App extends Component {
           <h1 className="App-title">Welcome to React with AWS Cognito</h1>
           <p>Use aws sdk safely in frontend with cognito poolid</p>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-intro-container">
+          <p className="App-intro">
+            What we are gonna is create a AWS cognito pool ID, please go through : 
+            <a
+              href="https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials.html"
+              target="_blank"
+            >
+              https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials.html
+            </a> to get an Idea why we are doing this.
+          </p>
+        </div>
       </div>
     );
   }
