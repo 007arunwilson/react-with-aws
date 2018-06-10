@@ -33,11 +33,20 @@
 }
 
 .App-intro {
-  font-size: 12px;
+  font-size: 14px;
+  color: "#6E6E6E";
 }
 
 .App-intro a {
-  color:inherit;
+  color: inherit;
+}
+
+.intro-warning-pre {
+font-size: 12px;
+}
+
+.intro-inner-heading {
+  font-size: 16px;
 }
 
 .App-intro-container {
