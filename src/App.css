@@ -37,8 +37,8 @@
 }
 
 .App-intro {
-  font-size: 18px;
-  color: #232323;
+  font-size: 16px;
+  color: #171717;
 }
 .App-intro a {
   color: inherit;
@@ -56,7 +56,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80%;
+  max-width: 100%;
+  float: none;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.page-contents {
+  width: 80%;
   float: none;
   margin: auto;
   margin-top: 20px;
@@ -88,11 +95,11 @@
 
 .main-nav li a:hover:not(.active) {
   background-color: rgb(240, 240, 240);
-  color:rgb(58, 58, 58);
+  color: rgb(58, 58, 58);
 }
 
 .main-nav .active {
-  background-color: #fff;
+  text-decoration: underline;
 }
 
 .main-nav .active a {

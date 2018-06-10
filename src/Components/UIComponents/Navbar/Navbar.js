@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 class Navbar extends Component {
   render() {
@@ -6,13 +7,13 @@ class Navbar extends Component {
       <div className="main-nav">
         <ul>
           <li>
-            <a href="/">About AWS SDK</a>
+            <NavLink exact activeClassName="active" to={"/"}>About AWS SDK</NavLink>
           </li>
           <li>
-            <a href="/aws-modules">AWS Modules</a>
+            <NavLink activeClassName="active" to={"/aws-modules"}>AWS Modules</NavLink>
           </li>
           <li>
-            <a href="/repo-n-credits">Repo &amp; Credits</a>
+            <NavLink activeClassName="active" to={"/repo-n-credits"}>Repo &amp; Credits</NavLink>
           </li>
         </ul>
       </div>

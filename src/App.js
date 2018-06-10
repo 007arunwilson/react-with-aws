@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/UIComponents/Navbar/Navbar";
-
+import { Route } from "react-router-dom";
+import { AboutAWSSDK } from "./Containers/Intro";
 class App extends Component {
   render() {
     return (
@@ -22,14 +23,23 @@ class App extends Component {
           <h1 className="App-title">Welcome to React with AWS</h1>
           <p>
             A Experimental project for running react with aws by the support AWS
-            official{" "}
-            <a href="https://github.com/aws/aws-sdk-js" target="_blank">
-              Javascript SDK{" "}
+            official &nbsp;<a
+              href="https://github.com/aws/aws-sdk-js"
+              target="_blank"
+            >
+              Javascript SDK
             </a>
           </p>
         </header>
-
+        {/* Nav Links - Starts */}
         <Navbar />
+        {/* Nav Links - Ends */}
+
+        {/* Page contents - Starts */}
+        <div className="page-contents">
+          <Route path="/" exact component={AboutAWSSDK} />
+        </div>
+        {/* Page contents - Ends */}
       </div>
     );
   }
