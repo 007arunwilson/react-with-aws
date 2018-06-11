@@ -7,6 +7,9 @@ import { AboutAWSSDK } from "./Containers/Intro";
 import AWSModules from "./Components/PageComponents/AWSModules";
 class App extends Component {
   render() {
+
+    console.log(global.config)
+
     return (
       <div className="App">
         <header className="App-header">
