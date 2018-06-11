@@ -42,7 +42,7 @@ class App extends Component {
         {/* Page contents - Starts */}
         <div className="page-contents">
           <Route path="/" exact component={AboutAWSSDK} />
-          <Route path="/aws-modules" exact component={AWSModules} />
+          <Route path="/aws-modules" component={AWSModules} />
         </div>
         {/* Page contents - Ends */}
       </div>
