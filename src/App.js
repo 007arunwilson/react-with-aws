@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./Components/UIComponents/Navbar/Navbar";
 import { Route } from "react-router-dom";
 import { AboutAWSSDK } from "./Containers/Intro";
+import AWSModules from "./Components/PageComponents/AWSModules";
 class App extends Component {
   render() {
     return (
@@ -41,6 +42,7 @@ class App extends Component {
         {/* Page contents - Starts */}
         <div className="page-contents">
           <Route path="/" exact component={AboutAWSSDK} />
+          <Route path="/aws-modules" exact component={AWSModules} />
         </div>
         {/* Page contents - Ends */}
       </div>
