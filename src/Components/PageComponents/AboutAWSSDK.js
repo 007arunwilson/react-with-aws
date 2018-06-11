@@ -2,7 +2,7 @@ import React from "react";
 
 export const AboutAWSSDK = () => (
   <div className="App-intro-container">
-    <p className="App-intro">
+    <div className="App-intro">
       <h4 className="intro-inner-heading">
         What Is the AWS SDK for JavaScript?
       </h4>
@@ -13,7 +13,7 @@ export const AboutAWSSDK = () => (
       <br />
       <img
         className="aws-sdk-info-img"
-        src="https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/images/sdk-overview.png"
+        src="https://s3-us-west-2.amazonaws.com/cyberinfoscripter/sdk-overview.png"
       />
       <br />
       Not all services are immediately available in the SDK. To find out which
@@ -34,6 +34,6 @@ export const AboutAWSSDK = () => (
         https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/welcome.html
       </a>
       <br />
-    </p>
+    </div>
   </div>
 );

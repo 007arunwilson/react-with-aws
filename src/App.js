@@ -12,6 +12,7 @@ class App extends Component {
           <div className="logo-container">
             <img src={logo} className="App-logo" alt="logo" />
             <span className="span-plus"> + </span>
+
             <img
               src={
                 "https://s3-us-west-2.amazonaws.com/cyberinfoscripter/aws-logo.jpeg"
@@ -20,7 +21,9 @@ class App extends Component {
               alt="logo"
             />
           </div>
+
           <h1 className="App-title">Welcome to React with AWS</h1>
+
           <p>
             A Experimental project for running react with aws by the support AWS
             official &nbsp;<a
