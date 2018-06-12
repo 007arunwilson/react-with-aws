@@ -16,8 +16,6 @@ class AWSModules extends Component {
         }
       }
     };
-
-    console.log(this.props);
   }
 
   render() {

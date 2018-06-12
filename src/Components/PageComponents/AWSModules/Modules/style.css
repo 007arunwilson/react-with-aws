@@ -1,0 +1,9 @@
+.module-coginate .coginate-act-btn {
+    display: inline-block;
+    margin: 10px;
+    border:1px solid #ccc;
+    color:#333;
+    padding:6px 8px;
+    border-radius: 2px;
+    background-color: #fdfdfd;
+}
